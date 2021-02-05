@@ -1,0 +1,4 @@
+[32mINFO    [0m root:api_app.py:14 正在初始化app用户登录url:http://ttapi.research.itcast.cn/aap/v1_0/authorizations
+[32mINFO    [0m root:api_app.py:17 正在初始化app用户查询指定频道下所有文章url：http://ttapi.research.itcast.cn/app/v1_1/articles
+[32mINFO    [0m root:api_app.py:29 正在调用app用户登录接口，请求参数为：{'mobile': '13812345678', 'code': '246811'}
+[31m[1mERROR   [0m root:test03_app.py:27 Expecting value: line 1 column 1 (char 0)

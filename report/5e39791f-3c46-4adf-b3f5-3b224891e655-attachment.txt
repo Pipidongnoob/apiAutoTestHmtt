@@ -1,0 +1,6 @@
+[32mINFO    [0m root:api_mis.py:13 正在初始化后台管理 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+[32mINFO    [0m root:api_mis.py:16 正在初始化后台管理 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+[32mINFO    [0m root:api_mis.py:19 正在初始化后台管理 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+[32mINFO    [0m root:api_mis.py:31 正在调用后台管理系统 登录接口，请求数据为：{'account': 'testid', 'password': 'testpwd123'}
+[32mINFO    [0m root:tool.py:15 正在提取token，提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTI1MTI2OTIsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.PWLBvsarxQhhHvyEhBs8hTWXTK0EVRgc9dkOHhBhW48'}
+[32mINFO    [0m root:tool.py:21 正在调用公共断言方法

@@ -1,0 +1,26 @@
+2021-02-05 14:09:24,247 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-02-05 14:09:24,247 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url
+2021-02-05 14:09:24,247 INFO [api_mp.py(api_mp_login:27)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-02-05 14:09:24,397 INFO [tool.py(common_token:15)] - 正在提取token，提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTI1MTI2OTEsInVzZXJfaWQiOjEzMzE1NDIxNzM1MzkxMDY4MTYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.-jYsI5eC8gPVS3IMYe9x_gIlQGgdyRfUek0gpfgCrM0'}
+2021-02-05 14:09:24,397 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-05 14:09:24,407 INFO [api_mp.py(api_mp_article:42)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试!', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-02-05 14:09:24,617 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-05 14:09:24,617 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-02-05 14:09:24,617 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-02-05 14:09:24,617 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-02-05 14:09:24,627 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据为：{'account': 'testid', 'password': 'testpwd123'}
+2021-02-05 14:09:24,827 INFO [tool.py(common_token:15)] - 正在提取token，提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTI1MTI2OTIsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.PWLBvsarxQhhHvyEhBs8hTWXTK0EVRgc9dkOHhBhW48'}
+2021-02-05 14:09:24,827 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-05 14:09:24,827 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理 查询文章接口，请求数据为：{'title': 'test-inter-001', 'channel': '数据库'}
+2021-02-05 14:09:24,937 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-05 14:09:24,937 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-02-05 14:09:24,977 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理 审核文章接口，请求数据为：{'article_ids': [1357572542356783104], 'status': 2}
+2021-02-05 14:09:25,067 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-05 14:09:25,067 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-02-05 14:09:25,077 INFO [api_app.py(__init__:14)] - 正在初始化app用户登录url:http://ttapi.research.itcast.cn/aap/v1_0/authorizations
+2021-02-05 14:09:25,077 INFO [api_app.py(__init__:17)] - 正在初始化app用户查询指定频道下所有文章url：http://ttapi.research.itcast.cn/app/v1_1/articles
+2021-02-05 14:09:25,077 INFO [api_app.py(api_app_login:29)] - 正在调用app用户登录接口，请求参数为：{'mobile': '13812345678', 'code': '246811'}
+2021-02-05 14:09:25,177 ERROR [test03_app.py(test01_app_login:27)] - Expecting value: line 1 column 1 (char 0)
+2021-02-05 14:09:25,207 INFO [api_app.py(api_app_article:43)] - 正在调用app查询频道下所有文章接口，请求阐述为：{'channel_id': '7', 'timestamp': 1612505365, 'with_top': 1}
+2021-02-05 14:09:25,297 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-05 14:09:25,297 ERROR [test03_app.py(test02_app_article:40)] - 

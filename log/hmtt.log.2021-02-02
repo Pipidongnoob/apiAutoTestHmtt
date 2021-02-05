@@ -1,0 +1,36 @@
+2021-02-02 20:57:42,359 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-02-02 20:57:42,362 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url
+2021-02-02 20:57:42,363 INFO [api_mp.py(api_mp_login:27)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-02-02 20:57:42,529 INFO [tool.py(common_token:15)] - 正在提取token，提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTIyNzc5ODYsInVzZXJfaWQiOjEzMzE1NDIxNzM1MzkxMDY4MTYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.3c9ttoJA8Z24VWxO7ThFbQAZ1fTulFAYUvXp5SrfJX8'}
+2021-02-02 20:57:42,529 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-02 20:57:42,537 INFO [api_mp.py(api_mp_article:42)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试!', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-02-02 20:57:42,674 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-02 20:57:42,681 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-02-02 20:57:42,682 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-02-02 20:57:42,682 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-02-02 20:57:42,683 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据为：{'account': 'testid', 'password': 'testpwd123'}
+2021-02-02 20:57:42,944 INFO [tool.py(common_token:15)] - 正在提取token，提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTIyNzc5ODYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.HtQG4okDsdPj2nfgD522e0xuMievzzIglUitTAcUQro'}
+2021-02-02 20:57:42,945 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-02 20:57:42,952 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理 查询文章接口，请求数据为：{'title': 'test-inter-001', 'channel': '数据库'}
+2021-02-02 20:57:43,078 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-02 20:57:43,078 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-02-02 20:57:43,121 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理 审核文章接口，请求数据为：{'article_ids': [1356588118496509952], 'status': 2}
+2021-02-02 20:57:43,222 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-02 20:57:43,222 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-02-02 21:07:37,888 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-02-02 21:07:37,888 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url
+2021-02-02 21:07:37,889 INFO [api_mp.py(api_mp_login:27)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-02-02 21:07:38,024 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-02-02 21:07:38,068 INFO [api_mp.py(api_mp_article:42)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试!', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-02-02 21:07:38,179 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-02-02 21:07:38,179 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-02-02 21:07:38,180 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-02-02 21:07:38,180 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据为：{'account': 'testid', 'password': 'testpwd123'}
+2021-02-02 21:07:38,413 INFO [tool.py(common_token:15)] - 正在提取token，提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTIyNzg1ODEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.mvCqGV9YrytL1fpSgLqQfbwjs3XVz2chDHPWEyxgC1k'}
+2021-02-02 21:07:38,414 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-02 21:07:38,422 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理 查询文章接口，请求数据为：{'title': 'test-inter-001', 'channel': '数据库'}
+2021-02-02 21:07:38,516 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-02 21:07:38,516 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-02-02 21:07:38,525 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理 审核文章接口，请求数据为：{'article_ids': [None], 'status': 2}
+2021-02-02 21:07:38,656 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法
+2021-02-02 21:07:38,656 ERROR [test02_mis.py(test03_mis_audit:56)] - 

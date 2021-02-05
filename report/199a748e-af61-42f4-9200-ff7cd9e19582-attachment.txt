@@ -1,0 +1,4 @@
+[32mINFO    [0m root:api_mp.py:12 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+[32mINFO    [0m root:api_mp.py:15 正在初始化自媒体发布文章url
+[32mINFO    [0m root:api_mp.py:27 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+[1m[31mERROR   [0m root:test01_mp.py:30 'NoneType' object has no attribute 'get'
